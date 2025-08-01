@@ -1,0 +1,67 @@
+/* Main content layout */
+.main-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 40px 10%;
+}
+
+/* Card style */
+.card {
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+  color: #007acc;
+}
+
+.card img {
+  border-radius: 8px;
+  width: 100%;
+  max-width: 150px;
+  margin-bottom: 16px;
+}
+
+.card p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #444;
+}
+
+/* Project image placeholder */
+.carousel-placeholder {
+  background-color: #e0e0e0;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+/* View projects button */
+.project-link-btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 20px;
+  background-color: #007acc;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.project-link-btn:hover {
+  background-color: #005f99;
+}

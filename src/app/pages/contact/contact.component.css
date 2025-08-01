@@ -1,0 +1,35 @@
+/* Cards container */
+.main-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 40px 10%;
+}
+
+/* Card styling */
+.card {
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+  color: #007acc;
+}
+
+.card.about p {
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #2c2c2c;
+  margin-top: 12px;
+  text-align: justify;
+}
+
